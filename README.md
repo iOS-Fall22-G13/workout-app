@@ -65,7 +65,7 @@ Optional:
 
 
 ## Wireframes
-[![Untitled.png](https://i.postimg.cc/t4cJtyCv/Untitled.png)](https://postimg.cc/LJzm2cPj)
+[![Untitled-1.png](https://i.postimg.cc/zfkMYDb0/Untitled-1.png)](https://postimg.cc/JyGKbLQk)
 
 
 ## Data Model and Networking
