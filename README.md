@@ -63,22 +63,40 @@ Optional:
 * Login -> Opens home
 * Add new post -> Opens camera/album
 
-## Wireframes
 
+## Wireframes
+[![Untitled.png](https://i.postimg.cc/t4cJtyCv/Untitled.png)](https://postimg.cc/LJzm2cPj)
+
+
+## Data Model and Networking
 User
 | Property    | Type        | Description |
 | ----------- | ----------- | ----------- |
-| objectId    | String      |
-| Username    | String      |
-| Password    | String      |
-| goalStats   | Dictionary  |
-| trainingData| Dictionary  |
+| objectId    | String      | identifier for user
+| Username    | String      | username
+| Password    | String      | password
+| goalStats   | Dictionary  | user workout goals statistics
+| trainingData| Dictionary  | user historical workout statistics
 
 Posts
 | Property    | Type        | Description |
 | ----------- | ----------- | ----------- |
-| objectId    | String      |
-| Author      | String      |
-| image       | String      |
-| caption     | String      |
+| objectId    | String      | identifier for posts
+| Author      | String      | name of author of the post
+| image       | String      | name of image
+| caption     | String      | description written by user about the image
+
+## Networking
+Home Feed Screen
+(Read/GET) Query all posts where user is author
+(Create/POST) Create a new comment on a post
+(Delete) Delete existing comment
+Create Post Screen
+(Create/POST) Create a new post object
+Profile Screen
+(Read/GET) Query logged in user object
+(Update/PUT) Update user profile image
+
+
+
 
